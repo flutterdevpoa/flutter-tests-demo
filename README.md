@@ -1,16 +1,10 @@
-# flutter_test_demo
+# flutter test demo
 
-A new Flutter application.
+Projeto de demonstração usado para a palestra **[Precisamos falar sobre testes](https://youtu.be/_uNIPCnuEgk)**, apresentada no FlutterRS #6 em 12/11/2019
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Instruções
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Para executar os testes de integração é necessário que tenha um dispositivo ou emulador conectado e executar o comando abaixo no terminal a partir da raíz do projeto:<br />
+`flutter drive --target=test_driver/integration/instrumented_app.dart`
